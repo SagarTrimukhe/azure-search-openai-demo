@@ -12,10 +12,10 @@ const EXAMPLES: ExampleModel[] = [
     {
         text: "How to auto scale VMs on AWS?",
         value: "How to auto scale VMs on AWS?",
-        contextIndex: "TBD"
+        contextIndex: "index1"
     },
-    { text: "How to setup global tables in DynamoDB", value: "How to setup global tables in DynamoDB", contextIndex: "TBD" },
-    { text: "What are the best practices to setup a cloudfront?", value: "What are the best practices to setup a cloudfront?", contextIndex: "TBD" }
+    { text: "How to setup global tables in DynamoDB", value: "How to setup global tables in DynamoDB", contextIndex: "index1" },
+    { text: "What are the best practices to setup a cloudfront?", value: "What are the best practices to setup a cloudfront?", contextIndex: "index1" }
 ];
 
 interface Props {

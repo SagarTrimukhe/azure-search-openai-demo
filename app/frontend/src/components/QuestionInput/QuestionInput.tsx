@@ -98,7 +98,7 @@ export const QuestionInput = ({ onSend, disabled, placeholder, clearOnSend }: Pr
                 />
                 <div className={styles.questionInputButtonsContainer}>
                     <Tooltip content="Ask question button" relationship="label">
-                        <Button size="large" icon={<Send28Filled primaryFill="rgba(115, 118, 225, 1)" />} disabled={sendQuestionDisabled} onClick={sendQuestion} />
+                        <Button size="large" icon={<Send28Filled primaryFill="#01A982" />} disabled={sendQuestionDisabled} onClick={sendQuestion} />
                     </Tooltip>
                 </div>
             </Stack>
